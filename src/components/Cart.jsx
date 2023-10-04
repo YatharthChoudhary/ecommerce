@@ -24,7 +24,7 @@ const Cart = () => {
                         </div>
                         <div className="col-md-4">
                             <h3>{cartItem.title}</h3>
-                            <p className="lead fw-bold">${cartItem.price}</p>
+                            <p className="lead fw-bold">₹{cartItem.price}</p>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const Cart = () => {
         return (
             <div className="container">
                 <div className="row">
-                    {/* <NavLink to="/checkout" className="btn btn-outline-primary mb-5 w-25 mx-auto">Proceed To checkout</NavLink> */}
+                    
                     <button type="button" className="btn btn-primary ms-1" data-bs-toggle="modal" data-bs-target="#signupModal">
                         <span className="fa fa-user-plus me-1"></span> Pay
                     </button>
